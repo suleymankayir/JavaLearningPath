@@ -13,16 +13,13 @@ public class C09_StringManipulationPractise {
         str = str.replace("space", " ");
         str = str.replace("C", "c");
         System.out.println(str);
+        */
 
 
 
-        // String iki deger toplami
-        String str1 = "13.99";
-        String str2 = "10.55";
-        double toplam = Double.parseDouble(str1) + Double.parseDouble(str2);
-        System.out.println(toplam);
 
 
+        /*
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen isim giriniz");
         String isim = scan.next();
@@ -45,7 +42,7 @@ public class C09_StringManipulationPractise {
         - Son harf kucuk harf olmali
         - Sifre'de bosluk olmamali
         - Sifre 8 karakterden asagi olmamali
-         */
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen bir sifre giriniz");
         String sifre = scan.nextLine();
@@ -80,5 +77,7 @@ public class C09_StringManipulationPractise {
         } else {
             System.out.println("Islem basarisiz, tekrar deneyin");
         }
+
+         */
     }
 }
