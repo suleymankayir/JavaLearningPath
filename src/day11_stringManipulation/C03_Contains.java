@@ -2,7 +2,7 @@ package day11_stringManipulation;
 
 public class C03_Contains {
     public static void main(String[] args) {
-        String email = "123@gmail.coma";
+        String email = "123@gmail.com";
 
         if (!email.contains("@gmail.com")) {
             System.out.println("Lütfen gmail adresinizi giriniz");

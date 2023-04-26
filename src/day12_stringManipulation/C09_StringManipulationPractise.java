@@ -2,7 +2,7 @@ package day12_stringManipulation;
 
 import java.util.Scanner;
 
-public class C09_StringManipulatioPractise {
+public class C09_StringManipulationPractise {
     public static void main(String[] args) {
         /*
         String str = "Java ogrenmek123 Cok guzel@";
@@ -38,7 +38,7 @@ public class C09_StringManipulatioPractise {
 
 
         /*
-        Kullanıdan sifre isteyelim.
+        Kullanıcidan sifre isteyelim.
         Asagidaki sartlari sagliyorsa "Sifre basari ile tanimlandi"
         tasimiyorsa "Islem basarisiz, lütfen tekrar deneyin." yazdirin.
         - Ilk harf buyuk harf olmali

@@ -10,7 +10,7 @@ public class C03_equalsIgnoreCase {
         System.out.println(str1.equals(str2));
         System.out.println(str1.equalsIgnoreCase(str2));
         System.out.println(str2.equals(str3));
-        System.out.println(str2.equalsIgnoreCase(str3));
+        System.out.println(str2.equalsIgnoreCase(str4));
 
     }
 }

@@ -12,7 +12,7 @@ public class C04_Contains {
         } else if (cumle.contains("buyuk")) {
             System.out.println(cumle.toUpperCase());
         } else {
-            System.out.println("Cumlede kucuk ya da buyuk numarası gecmiyor.");
+            System.out.println("Cumlede kucuk ya da buyuk kelimesi gecmiyor.");
         }
     }
 }

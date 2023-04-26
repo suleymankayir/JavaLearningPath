@@ -10,7 +10,7 @@ public class C06_Substring {
         System.out.println(soyisim.substring(soyisim.length()-3)); // --> fil
         System.out.println(isim.substring(2,4)); // --> le
 
-        // isim,soyisim ill harfi buyuk harf, geriye kalan *
+        // isim,soyisim ilk harfi buyuk harf, geriye kalan *
         // kart no ilk 4 rakamı gorunsun gerisi *
 
         String isimİlkHarf = isim.substring(0,1).toUpperCase();
