@@ -9,7 +9,7 @@ public class C02_MethodCreation {
         C01_MethodCreation.terstenYazdir("okan");
     }
 
-    private static void rakamlariTopla(int input) {
+    public static void rakamlariTopla(int input) {
         int birlerBasamagi = 0;
         int rakamlarToplami = 0;
         int temp = input;
