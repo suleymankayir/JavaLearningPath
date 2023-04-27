@@ -1,6 +1,6 @@
 package day13_MethodCreation;
 
-public class Q1_MethodCreation {
+public class C01_MethodCreation {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
