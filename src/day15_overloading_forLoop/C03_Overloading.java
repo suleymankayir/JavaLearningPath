@@ -7,6 +7,7 @@ public class C03_Overloading {
         topla(5,8);
         topla(5,9);
         topla(5,10);
+        topla(1,2,3);
 
         /*
         Java hangi method'un calisacagina karar vererken optimizasyon yapar
@@ -35,4 +36,14 @@ public class C03_Overloading {
     public static void topla(double sayi1,double sayi2){
         System.out.println("Iki double'ın toplami : " + (sayi1+sayi2));
     }
+    public static void topla(int sayi1,int sayi2, int sayi3){
+        System.out.println("Uc integer'in toplami : " + (sayi1+sayi2+sayi3));
+    }
+    /*
+    method signature degistirmek icin uc yontem vardir
+    - parametrelerin data tipleri degisitirilebilir.
+    - parametre sayisi degistirilebilir.
+    - parametre sayisi ayni olmak zorunda ise farkli data tipindeki
+     parametrelerin sirası degistirilir.
+     */
 }
