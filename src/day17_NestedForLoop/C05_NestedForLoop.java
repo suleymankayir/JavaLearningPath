@@ -12,7 +12,7 @@ public class C05_NestedForLoop {
         }
 
         for (int i = input-1; i >=1 ; i--) {
-            for (int j = i; j >= 1 ; j--) {
+            for (int j = 1; j <=i ; j++) {
                 System.out.print(" * ");
             }
             System.out.println("");
