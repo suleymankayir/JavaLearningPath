@@ -1,4 +1,4 @@
-package practiseDay01;
+package practise;
 
 public class Q03_PrimitiveDataTypes {
     public static void main(String[] args) {

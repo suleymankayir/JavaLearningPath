@@ -1,4 +1,4 @@
-package practiseDay01;
+package practise;
 
 public class Q02_Println_Print {
     public static void main(String[] args) {
