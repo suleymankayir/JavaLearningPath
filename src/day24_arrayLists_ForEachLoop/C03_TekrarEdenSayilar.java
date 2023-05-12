@@ -11,7 +11,7 @@ public class C03_TekrarEdenSayilar {
         Arrays.sort(arr);
 
         System.out.println(Arrays.toString(arr));
-        List<Integer> tekrarEdenler = new ArrayList<Integer>();
+        List<Integer> tekrarEdenler = new ArrayList();
         for (int i = 0; i < arr.length-1; i++) {
             if ( arr[i]==arr[i+1] && !tekrarEdenler.contains(arr[i])) {
                 System.out.print(arr[i]+" ");
