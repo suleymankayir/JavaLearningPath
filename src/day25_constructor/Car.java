@@ -1,6 +1,6 @@
 package day25_constructor;
 
-public class car {
+public class Car {
     /*
     Bu class bizim kalıphanemiz bir araba olusturmak icin ihtiyacımız olan
     variable ve method'lari bu class'da belirleriz.
@@ -9,7 +9,7 @@ public class car {
     burada belirlenen variable ve methodlara gore araba uretiriz.
      */
 
-    String marka = "Marka belirtilmedi";
+    public String marka = "Marka belirtilmedi";
     String model = "Model belirtilmedi";
     int yil;
     int fiyat;
