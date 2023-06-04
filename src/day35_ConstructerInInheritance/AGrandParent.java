@@ -16,6 +16,7 @@ public class AGrandParent {
     protected String grandpaKlupAdi = "Grandpa Kulubü";
 
     AGrandParent(){
+
         System.out.println("Grandpa construct calisti");
     }
 }
