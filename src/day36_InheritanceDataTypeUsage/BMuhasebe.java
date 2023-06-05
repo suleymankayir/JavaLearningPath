@@ -14,4 +14,5 @@ public class BMuhasebe extends APersonel{
         System.out.println("İsteyen calisanlara %50 indirimli ozel sigorta yaptirilir.");
     }
 
+
 }
