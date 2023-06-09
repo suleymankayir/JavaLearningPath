@@ -14,9 +14,13 @@ public interface I01_Interfaces {
     2- Interface'ler full abstraction yaptigindan Interface'lerden obje olusturulamaz.
     3- Class'larda bir child birden fazla parent edinemez. Ancak interface'lerde concrete method olmadigindan
     biz her methodu child class'da override etmek zorundayiz.
-    Override ederken kimin soyledigini
+    Override ederken kimin soyledigini override ettigimizin onemi yok.
+    4- Interface'ler neyin yapılmasi gerektigini soyler.
+    Ama nasil yapilacagina karismaz.
 
 
 
      */
+    int SAYI = 30;
+    String ISIM = "Yildiz Koleji";
 }
